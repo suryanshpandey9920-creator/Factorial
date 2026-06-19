@@ -11,6 +11,7 @@ double  table(int n ){
 
        // everytime the loop run we have to multiply 
         // (n * i )  means n*1, n*2 , n*3, n*4, .... till n*10 
+        cout << endl; 
 
     }
     return 0;
@@ -19,17 +20,21 @@ double  table(int n ){
 
 
 int main(){
-    cout << table(20) << endl;
-    //  cout << table(2) << endl;
-    //   cout << table(3) << endl;
-    //    cout << table(4) << endl;
-    //     cout << table(5) << endl;
-    //      cout << table(6) << endl;
-    //       cout << table(7) << endl;
-    //        cout << table(8) << endl;
-    //         cout << table(9) << endl;
-    //          cout << table(10) << endl;
 
+    int tab;
+    cout << "Enter the table number, EX: 2,3,4, etc : ";
+    cin >> tab;
+    cout << table(tab) << endl;
+
+    //  this is function method, you can comment it
+    //  and directly call the function and give a value 
+
+
+    //  ex 
+
+    cout << table(5) << endl;
+
+    
 
  
     return 0;
