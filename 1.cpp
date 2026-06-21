@@ -23,9 +23,12 @@ double product(int a, int b){
 }
 
  // Division function
- double dicision(int a, int b){
-
-    cout<< " Division of  a & b is : ";
+ double division(int a, int b){
+     if (b == 0){  
+        cout << "The division with 0 is not possible! Try another number  ";
+     }
+   else {
+    cout<< " Division of  a & b is : ";  }
     return a/b;
 }
 
@@ -35,9 +38,7 @@ double product(int a, int b){
 
 int main(){
 
- 
- cout << sum(45,34)<<endl;
- cout << subt(45.1245,46);
+  cout << division(5, 2);
 
 
 
